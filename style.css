@@ -1,0 +1,62 @@
+body {
+  background-color: #0d1a3a; /* كحلي */
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.frame-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  z-index: 2;
+  pointer-events: none;
+  border-radius: 20px;
+}
+
+input[type="file"] {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: white;
+  color: #0d1a3a;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
